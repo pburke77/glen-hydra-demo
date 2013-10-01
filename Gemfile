@@ -45,3 +45,12 @@ gem 'hydra', '~> 6.0.0', :require => 'hydra6'
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+gem "unicode", platforms: [:mri_18, :mri_19]
+gem "devise", "3.0.0.rc"
+gem "devise-guests", "~> 0.3"
+gem "bootstrap-sass"
+group :development, :test do
+  gem "rspec-rails"
+  gem "jettywrapper"
+end
